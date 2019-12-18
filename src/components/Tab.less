@@ -1,0 +1,43 @@
+.tab {
+  padding: .5rem 1rem;
+  max-width: 10rem;
+  min-width: 7rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-right: .25rem;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+  max-height: 7rem;
+  position: relative;
+  cursor: pointer;
+
+  svg {
+    fill: none;
+    fill-rule: evenodd;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+  }
+}
+
+.title {
+  font-weight: bold;
+  max-width: 100%;
+
+  :global(.document-text-color-white) :global(.content) {
+    color: #FFFFFF !important;
+  }
+}
+
+.addNewTab {
+  border-color: #d8d8d8;
+  color: #d8d8d8;
+  flex-grow: 0;
+  font-weight: bold;
+}

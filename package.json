@@ -1,0 +1,16 @@
+{
+    "name": "quip-tabs",
+    "version": "0.0.1",
+    "description": "Tabs, in Quip! (not the toothbrush)",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "author": "",
+    "devDependencies": {
+        "create-quip-app": "0.0.45",
+        "quip-apps-webpack-config": ">=0.0.39",
+        "react-contenteditable": "^3.3.3"
+    }
+}

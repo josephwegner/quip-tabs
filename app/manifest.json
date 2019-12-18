@@ -1,0 +1,11 @@
+{
+    "id": "BLdAjAnRNIK",
+    "manifest_version": 1,
+    "name": "Tabs",
+    "version_name": "1.0",
+    "version_number": 1,
+    "sizing_mode": "fill_container",
+    "initial_height": 100,
+    "js_files": ["dist/app.js"],
+    "css_files": ["dist/app.css"]
+}
